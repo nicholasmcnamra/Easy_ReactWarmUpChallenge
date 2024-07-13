@@ -1,0 +1,42 @@
+* {
+  font-family: monospace;
+}
+.card-flex-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+.card-container {
+  margin: 20px 0 0 2%;
+  flex-grow: 1;
+  width: calc(100% * (1/4) - 10px - 1px);
+  border: solid 2px #474242;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.card-container:hover {
+  border: solid 2px #e3dede;
+}
+.dog-image {
+  position: relative;
+  width: 100%;
+  height: auto; /* This will make the height adjust automatically based on the width */
+  max-height: 20em; /* This ensures the height does not exceed 20em */
+  border: solid 2px #474242;
+  border-radius: 10px;
+  object-fit: cover; 
+}
+h2 {
+  font-size: xx-large;
+  letter-spacing: 3px;
+  transform: scaleY(0.90);
+  transform-origin: 0 0;
+}
+h4 {
+  font-size: large;
+}
+.dog-age {
+  float: right;
+}
